@@ -1,0 +1,92 @@
+.recommendationsContainer {
+  margin-top: 20px;
+  width: 100vw;
+  padding: 20px;
+  padding-bottom: 100px;
+  padding-right: 60px;
+}
+
+.recommendationsTitle {
+  text-align: center;
+}
+
+.recommendationsTitleText {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #131313;
+}
+
+.recommendationsContent {
+  padding-bottom: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.recommendationsItem {
+  flex: 1 1 calc(33.333% - 20px);
+  text-align: left;
+}
+
+.recommendationsItemImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.recommendationsText {
+  margin-top: 10px;
+}
+
+.recommendationsItemTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #131313;
+}
+
+.recommendationsItemDescription {
+  font-size: 16px;
+  color: #131313;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .recommendationsContent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .recommendationsTitleText {
+    font-size: 24px;
+  }
+
+  .recommendationsItem {
+    flex: 1 1 100%;
+  }
+
+  .recommendationsItemTitle {
+    font-size: 18px;
+  }
+
+  .recommendationsItemDescription {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .recommendationsTitleText {
+    font-size: 20px;
+  }
+
+  .recommendationsItemTitle {
+    font-size: 16px;
+  }
+
+  .recommendationsItemDescription {
+    font-size: 12px;
+  }
+}

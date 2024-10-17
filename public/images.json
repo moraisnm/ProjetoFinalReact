@@ -1,0 +1,57 @@
+{
+    "heroImage": "/images/image1.jpg",
+    "backgroundVideo": "/videos/background-video.mp4",
+    "carouselImages": [
+      "/images/Carrossel1.jpg",
+      "/images/Carrossel2.jpg",
+      "/images/Carrossel3.jpg",
+      "/images/Carrossel4.jpg",
+      "/images/Carrossel5.jpg"
+    ],
+    
+    "showcaseImages": [
+      "/images/image1.jpg",
+      "/images/image2.jpg",
+      "/images/image3.jpg",
+      "/images/image4.jpg"
+    ],
+    "bannerImages": [
+      "/images/LilPic1.png",
+      "/images/LilPic2.png",
+      "/images/LilPic3.png"
+    ],
+    "reviewsImage": "/images/image5.jpg",
+    "sofaImage": "/images/image7.jpg",
+    "sofaVideo1": "/videos/product-video-1.mp4",
+    "sofaVideo2": "/videos/product-video-2.mp4",
+    "armStyleIcon1": "/images/iconArm1.svg",
+    "armStyleIcon2": "/images/iconArm2.svg",
+    "flipBackIcon1": "/images/iconFlip1.svg",
+    "flipBackIcon2": "/images/iconFlip2.svg",
+    "reviewImage": "/images/image7.jpg",
+    "dimensionsImage": "/images/image10.jpg",
+    "recommendationImages": [
+      "/images/image7.jpg",
+      "/images/image7.jpg",
+      "/images/image7.jpg"
+    ],
+    "featureImage1": "/images/image11.jpg",
+    "featureImage2": "/images/image12.jpg",
+    "featureImage3": "/images/image13.jpg",
+    "featureImage4": "/images/image14.jpg",
+    "featureImage5": "/images/image15.jpg",
+    "imagesGrid": [
+      "/images/Rectangle2.jpg",
+      "/images/Rectangle3.jpg",
+      "/images/Rectangle4.jpg",
+      "/images/Rectangle5.jpg",
+      "/images/Rectangle6.jpg",
+      "/images/Rectangle7.jpg"
+    ],
+    "grid2": [
+      "/images/Rectangle9.jpg",
+      "/images/Rectangle10.jpg",
+      "/images/Rectangle11.jpg",
+      "/images/Rectangle12.jpg"
+    ]
+}

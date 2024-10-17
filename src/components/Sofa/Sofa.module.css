@@ -1,0 +1,201 @@
+.sofaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.sofaTitle {
+  width: 100%;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.collectionName {
+  font-size: 24px;
+  font-weight: bold;
+  color: #131313;
+}
+
+.sofaContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+.imageSection {
+  width: 70%;
+  margin-right: 20px;
+  position: relative;
+}
+
+.sofaImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.rectangles {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.rectangle {
+  width: 100px;
+  height: 50px;
+  background-color: #E8E8E8;
+  border-radius: 4px;
+}
+
+.addToCartButton {
+  position: absolute;
+  bottom: 0px;
+  right: 120px;
+  width: 144px;
+  height: 49px;
+  background-color: #FFD700;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #131313;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addToCartButton:hover {
+  background-color: #FFC700;
+}
+
+.sofaDetails {
+  flex: 1;
+  text-align: left;
+}
+
+.sofaName {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #131313;
+}
+
+.sofaPrice {
+  font-size: 16px;
+  color: #131313;
+  margin-bottom: 10px;
+}
+
+.fabricColor {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #131313;
+}
+
+.additionalDetails {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.detailSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.detailTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #131313;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.upgradesList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.upgradeItem {
+  display: flex;
+  align-items: center;
+  color: #9C9C9C;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-color: transparent;
+  border: 1px solid #9C9C9C;
+  accent-color: #9C9C9C;
+}
+
+@media (max-width: 768px) {
+  .sofaContent {
+    flex-direction: column;
+  }
+
+  .imageSection {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .addToCartButton {
+    position: relative;
+    top: 20px;
+    right: 0;
+  }
+
+  .additionalDetails {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .collectionName {
+    font-size: 20px;
+  }
+
+  .sofaName {
+    font-size: 24px;
+  }
+
+  .sofaPrice {
+    font-size: 14px;
+  }
+
+  .fabricColor {
+    font-size: 14px;
+  }
+
+  .detailTitle {
+    font-size: 16px;
+  }
+
+  .checkbox {
+    width: 15px;
+    height: 15px;
+  }
+}

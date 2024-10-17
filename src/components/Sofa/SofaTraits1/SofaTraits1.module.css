@@ -1,0 +1,117 @@
+.traitsContainer {
+  margin-top: 20px;
+  width: 100vw;
+  padding: 20px;
+  padding-bottom: 100px;
+  padding-right: 60px;
+}
+
+.traitsContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.traitsVideo {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.traitsTextContainer {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.traitsTitle {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #131313;
+}
+
+.traitsText {
+  font-size: 16px;
+  color: #131313;
+  margin-bottom: 20px;
+}
+
+.additionalTraits {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.trait {
+  flex: 1;
+}
+
+.traitTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #131313;
+}
+
+.traitText {
+  font-size: 14px;
+  color: #131313;
+}
+
+
+@media (max-width: 768px) {
+  .traitsContent {
+    flex-direction: column;
+  }
+
+  .traitsVideo {
+    width: 100%;
+  }
+
+  .traitsTextContainer {
+    width: 100%;
+  }
+
+  .additionalTraits {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .traitsTitle {
+    font-size: 24px;
+  }
+
+  .traitsText {
+    font-size: 14px;
+  }
+
+  .traitTitle {
+    font-size: 16px;
+  }
+
+  .traitText {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .traitsTitle {
+    font-size: 20px;
+  }
+
+  .traitsText {
+    font-size: 12px;
+  }
+
+  .traitTitle {
+    font-size: 14px;
+  }
+
+  .traitText {
+    font-size: 10px;
+  }
+}

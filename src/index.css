@@ -1,0 +1,32 @@
+html {
+	font-size: 16px;
+	font-size: 62.5%;
+}
+
+* {
+	font-family: Inter, sans-serif;
+	box-sizing: border-box;
+
+}
+
+img {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.btn {
+	width: 17rem;
+	height: 4.9rem;
+	padding: 1.6rem 2.4rem;
+	border-radius: 0.4rem 0rem 0rem 0rem;
+	border: none; 
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: #131313;
+
+	}
+		

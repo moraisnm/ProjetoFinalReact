@@ -1,0 +1,170 @@
+.footer {
+  background-color: #514F4D;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.notifications {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 40px;
+  border-bottom: 1px solid #ddd;
+  background-color: #514F4D;
+}
+
+.newsletter {
+  display: flex;
+  align-items: center;
+}
+
+.newsletterInput {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  width: 300px;
+  background-color: transparent;
+  color: #FFFFFF;
+  border-right: none;
+}
+
+.newsletterInput::placeholder {
+  color: #FFFFFF;
+}
+
+.newsletterButton {
+  background-color: #F7EEE3;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 0 4px 4px 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-left: none;
+}
+
+.newsletterButton:hover {
+  background-color: #F5F2DC;
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+}
+
+.socialIcon {
+  margin: 0 10px;
+}
+
+.socialIcon img {
+  width: 24px;
+  height: 24px;
+}
+
+.socialIcon:hover img {
+  filter: brightness(0.8);
+}
+
+.footerBottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #131313;
+}
+
+.footerColumn {
+  width: 22%;
+  margin: 20px;
+}
+
+.bottomList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bottomList li {
+  margin-bottom: 10px;
+}
+
+.bottomList a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.bottomList a:hover {
+  color: #F7EEE3;
+}
+
+.footerLegal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+  padding: 20px;
+  background-color: #131313;
+}
+
+.footerLegalLeft {
+  text-align: left;
+}
+
+.footerLegalRight {
+  text-align: right;
+}
+
+.footerLegal p {
+  margin: 0;
+}
+
+.footerLegal a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footerLegal a:hover {
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .notifications {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .newsletter {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletterInput {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .socialMedia {
+    margin-top: 20px;
+  }
+
+  .footerBottom {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .footerColumn {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .footerLegal {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footerLegalLeft, .footerLegalRight {
+    text-align: center;
+    margin: 10px 0;
+  }
+}

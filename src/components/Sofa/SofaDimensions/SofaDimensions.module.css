@@ -1,0 +1,87 @@
+.dimensionsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100vw;
+  padding: 20px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.dimensionsTitle {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #131313;
+  text-align: left;
+  width: 40%;
+}
+
+.dimensionsContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+  width: 100%;
+  height: 100%;
+}
+
+.dimensionsImage {
+  width: 40%;
+  height: auto;
+  padding-right: 100px;
+}
+
+.dimensionsTable {
+  width: 40%;
+  border-collapse: collapse;
+}
+
+.dimensionsTable td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  color: #9C9C9C;
+  white-space: nowrap;
+}
+
+.dimensionsTable tr:first-child td {
+  border-top: none;
+}
+
+@media (max-width: 768px) {
+  .dimensionsContent {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .dimensionsImage {
+    width: 100%;
+  }
+
+  .dimensionsTable {
+    width: 100%;
+  }
+
+  .dimensionsTable td {
+    font-size: 14px;
+  }
+
+  .dimensionsTitle {
+    font-size: 24px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .dimensionsTable td {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .dimensionsTitle {
+    font-size: 20px;
+  }
+}
